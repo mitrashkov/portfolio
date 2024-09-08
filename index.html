@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitrashkov</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+</head>
+<body>
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm <span class="highlight">[Rado]</span></h1>
+            <p>A passionate web developer</p>
+            <a href="#portfolio" class="cta-button">Explore My Work</a>
+        </div>
+    </section>
+    
+
+    <section id="portfolio" class="js-scroll">
+        <h2>My Projects</h2>
+        <div class="portfolio-grid">
+            <!-- Portfolio Item 1 -->
+            <div class="portfolio-item">
+                <img src="images/project1.jpg" alt="Project 1">
+                <div class="overlay">
+                    <h3>Project Title 1</h3>
+                    <p>Brief description of the project</p>
+                    <a href="#" class="view-project">View Project</a>
+                </div>
+            </div>
+            
+            <!-- Portfolio Item 2 -->
+            <div class="portfolio-item">
+                <img src="images/project2.jpg" alt="Project 2">
+                <div class="overlay">
+                    <h3>Project Title 2</h3>
+                    <p>Brief description of the project</p>
+                    <a href="#" class="view-project">View Project</a>
+                </div>
+            </div>
+    
+            <!-- Portfolio Item 3 -->
+            <div class="portfolio-item">
+                <img src="images/project3.jpg" alt="Project 3">
+                <div class="overlay">
+                    <h3>Project Title 3</h3>
+                    <p>Brief description of the project</p>
+                    <a href="#" class="view-project">View Project</a>
+                </div>
+            </div>
+    
+            <!-- Additional Portfolio Items -->
+            <!-- Add more portfolio items here -->
+        </div>
+    </section>
+    
+
+
+    <section id="about" class="js-scroll">
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    
+        <!-- Picture Grid Layout -->
+        <div class="about-layout">
+            <div class="image-item" data-info="Project 1 Description">
+                <img src="images/3d-emoji-person.png" alt="Project 1">
+            </div>
+            <div class="image-item" data-info="Project 2 Description">
+                <img src="images/3d-emoji-person.png" alt="Project 2">
+            </div>
+            <div class="image-item" data-info="Project 3 Description">
+                <img src="images/3d-emoji-person.png" alt="Project 3">
+            </div>
+            <div class="emoji-item">
+                <img src="images/3d-emoji-person.png" alt="3D Emoji Person">
+            </div>
+        </div>
+    
+        <!-- Info Box to show on hover or click -->
+        <div id="info-box" class="hidden"></div>
+    </section>
+    
+    <section id="contact" class="fade-in">
+        <h2>Get in Touch</h2>
+    
+        <!-- Contact Section Layout with Smaller Email Emoji -->
+        <div class="contact-layout">
+            <div class="contact-emoji">
+                <img src="images/3d-email-emoji.png" alt="Email Emoji">
+            </div>
+    
+            <!-- Contact Form -->
+            <form id="contact-form">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
