@@ -6,101 +6,105 @@
     <title>Mitrashkov</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section id="hero">
-        <div class="hero-content">
-            <h1>Hello, I'm <span class="highlight">[Rado]</span></h1>
-            <p>A passionate web developer</p>
-            <a href="#portfolio" class="cta-button">Explore My Work</a>
+    <section>
+    <div id="text-container" class="divtextfirst">
+        <div id="line-one">
+          <h1>Radoslav</h1< />
         </div>
+        <div id="line-two">
+          <h1>Mitrashkov</h1< />
+        </div>
+        <div id="line-three">
+          <h1>Portfolio</h1< />
+        </div>
+      </div>
     </section>
     
 
-    <section id="portfolio" class="js-scroll">
-        <h2>My Projects</h2>
-        <div class="portfolio-grid">
-            <!-- Portfolio Item 1 -->
-            <div class="portfolio-item">
-                <img src="images/project1.jpg" alt="Project 1">
-                <div class="overlay">
-                    <h3>Zenionx</h3>
-                    <p>Large network controlling other ones</p>
-                    <a href="#" class="view-project">View Project</a>
-                </div>
+
+        <section class="aboutmedescription">
+            <div class="aboutmedescriptiondiv">
+              <p>
+                One of the most fun CSS animation APIs ever. A magical way to create
+                scroll-driven animations without the need to touch JavaScript.
+                Animations run off the main thread. And you can choose to use View
+                Timelines or Scroll Timelines.
+              </p>
+              <p>Available Chrome 115+</p>
             </div>
+          </section>
+    
+    
+        <!-- Project Grid -->
+        <section id="projects" class="projects-section">
+            <h2>My Projects</h2>
             
-            <!-- Portfolio Item 2 -->
-            <div class="portfolio-item">
-                <img src="images/project2.jpg" alt="Project 2">
-                <div class="overlay">
-                    <h3>DionGPT</h3>
-                    <p>Custom self learning GPT</p>
-                    <a href="projects/diongpt.html" class="view-project">Learn more</a>
+            <!-- Project Grid -->
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <img src="images/logo1.png" alt="Project Logo" class="project-logo">
+                        <span class="project-label">Project 1</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Bigger Project Name</h3>
+                        <p>Short description of the project here...</p>
+                    </div>
+                    <div class="project-footer">
+                        <button class="learn-more">Learn More</button>
+                    </div>
+                </div>
+        
+                <div class="project-card">
+                    <div class="project-header">
+                        <img src="images/logo2.png" alt="Project Logo" class="project-logo">
+                        <span class="project-label">Project 2</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Bigger Project Name</h3>
+                        <p>Short description of the project here...</p>
+                    </div>
+                    <div class="project-footer">
+                        <button class="learn-more">Learn More</button>
+                    </div>
+                </div>
+        
+                <div class="project-card">
+                    <div class="project-header">
+                        <img src="images/logo3.png" alt="Project Logo" class="project-logo">
+                        <span class="project-label">Project 3</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Bigger Project Name</h3>
+                        <p>Short description of the project here...</p>
+                    </div>
+                    <div class="project-footer">
+                        <button class="learn-more">Learn More</button>
+                    </div>
                 </div>
             </div>
-    
-            <!-- Portfolio Item 3 -->
-            <div class="portfolio-item">
-                <img src="images/project3.jpg" alt="Project 3">
-                <div class="overlay">
-                    <h3>AlleyStrive</h3>
-                    <p>Clothing brand</p>
-                    <a href="projects/alleystrive.html" class="view-project">View Project</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    
+        </section>
+        
+        <section class="citat">
+            <h1>Just do the thing.</h1>
+            <h2>People will judge no matter what.</h2>
+        </section>
 
-    <section id="about" class="interactive-about">
-        <h2>About Me</h2>
-    
-        <!-- Central Circular Photo -->
-        <div class="about-center">
-            <img src="images/profile.jpg" alt="Your Profile Picture" class="center-photo">
-        </div>
-    
-        <!-- Floating Dots with Clickable Information -->
-        <div class="floating-dots">
-            <div class="dot bounce" onclick="showInfo(1)"></div>
-            <div class="info-content hidden" id="content-1">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <section class="contactwithme">
+            <h1>Contact me</h1>
+            <div class="images">
+            <img src="images/github.png" class="github">
+            <img src="images/instagram.png" class="instagram">
+            <img src="images/email.png" class="email">
+            <img src="images/discord.png" class="discord">
             </div>
-    
-            <div class="dot bounce" onclick="showInfo(2)"></div>
-            <div class="info-content hidden" id="content-2">
-                <p>I am a web developer with a passion for creating interactive and responsive designs.</p>
-            </div>
-    
-            <div class="dot bounce" onclick="showInfo(3)"></div>
-            <div class="info-content hidden" id="content-3">
-                <p>In my spare time, I enjoy learning new programming languages and exploring creative projects.</p>
-            </div>
-        </div>
-    </section>
-    
-    
-    
-    
-    <section id="contact" class="fade-in">
-        <h2>Get in Touch</h2>
-    
-        <!-- Contact Section Layout with Smaller Email Emoji -->
-        <div class="contact-layout">
-            <div class="contact-emoji">
-                <img src="images/3d-email-emoji.png" alt="Email Emoji">
-            </div>
-    
-            <!-- Contact Form -->
-            <form id="contact-form">
-                <input type="text" id="name" name="name" placeholder="Your Name" required>
-                <input type="email" id="email" name="email" placeholder="Your Email" required>
-                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
-    </section>
+        </section>
     
     <script src="js/script.js"></script>
 </body>
